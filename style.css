@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 500px;
+    margin: 40px auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.info p {
+    font-size: 16px;
+    margin: 8px 0;
+}
+
+/* Styling untuk Ikon Media Sosial */
+.social-icons {
+    margin-top: 20px;
+}
+
+.social-icon {
+    font-size: 20px; /* Ukuran kecil untuk ikon */
+    margin: 0 10px;
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.social-icon:hover {
+    color: #3498db; /* Ganti warna saat hover */
+}
+
+.social-icon i {
+    font-size: 24px; /* Menyesuaikan ukuran ikon */
+}
